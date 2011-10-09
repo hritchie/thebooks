@@ -45,6 +45,12 @@ GEM
     erubis (2.7.0)
     execjs (1.2.9)
       multi_json (~> 1.0)
+    growl_notify (0.0.3)
+      rb-appscript
+    guard (0.8.4)
+      thor (~> 0.14.6)
+    guard-rspec (0.5.0)
+      guard (>= 0.8.4)
     hike (1.2.1)
     i18n (0.6.0)
     jquery-rails (1.0.14)
@@ -83,6 +89,8 @@ GEM
       rdoc (~> 3.4)
       thor (~> 0.14.6)
     rake (0.9.2)
+    rb-appscript (0.6.1)
+    rb-fsevent (0.4.3.1)
     rdoc (3.10)
       json (~> 1.4)
     rspec (2.6.0)
@@ -127,8 +135,11 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.1.0)
+  growl_notify
+  guard-rspec
   jquery-rails
   rails (= 3.1.0)
+  rb-fsevent
   rspec-rails
   sass-rails (~> 3.1.0)
   sqlite3
